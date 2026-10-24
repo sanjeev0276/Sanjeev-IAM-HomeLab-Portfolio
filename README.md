@@ -2,19 +2,7 @@
 > Forked from okpe027, rebuilt with production hardening, PowerShell automation
 
 ## My Lab Progress - Built for Real Prod Issues
-
-# IAM-Lab-Portfolio - Opeyemi Ogundimu
-# Identity & Access Management Specialist | IT Security Professional
-# IAM Lab Portfolio — Opeyemi Ogundimu
-
-## Identity & Access Management Specialist | IT Security Professional
-
-A structured 10-week hands-on lab program built to develop 
-production-grade IAM skills across a hybrid on-premises and 
-cloud environment — mirroring real enterprise IAM operations.
-
 ---
-
 ## Lab Environment
 
 | Layer | Component | Purpose |
@@ -25,48 +13,5 @@ cloud environment — mirroring real enterprise IAM operations.
 | SSO Layer | Okta Developer Tenant | SAML SSO, lifecycle management |
 | API / Tokens | Postman + jwt.ms | OAuth 2.0 flows, JWT analysis |
 | Automation | PowerShell + Graph API | Bulk offboarding, MFA reports |
-
----
-
-## Lab Progress
-
-| Lab | Title | Status | Environment |
-|---|---|---|---|
-| 01 | Build On-Prem AD Environment | ✅ Complete | VMware waorkstation Pro + Windows Server 2022 |
-| 02 | RBAC Design, Role Engineering & Access Governance |  ✅ Complete | VMware Workstation • Windows Server 2022 • Active Directory User computers • Excel |
-| 03 | Offboarding & Access Revocation | ✅ Complete| Active Directory Users and Computers (DC01), your Provisioning Log from Lab 01, Excel, Notepad
-| 04 | Account Lockout Investigation | ✅ Complete | VMware Workstation · Windows Server 2022 · Active Directory · Event Viewer · PowerShell
-| 05 | Azure AD Connect Hybrid Sync | ✅ Complete | VMware Workstation · Windows Server 2022 · Microsoft Entra Connect · Azure Entra ID
-| 06 | Conditional Access: The Point Where Identity Becomes Security | ✅ Complete | Microsoft Entra ID P2 · fictionalcorp.onmicrosoft.com
-| 07 | Complete Hybrid Offboarding | ⏳ Upcoming | On-Prem + Azure |
-| 08 | PIM, SSPR & MFA Controls | ⏳ Upcoming | Azure Entra ID |
-| 09 | SAML 2.0 SSO End-to-End | ⏳ Upcoming | Okta + Azure |
-| 10 | Okta Lifecycle Management | ⏳ Upcoming | Okta + Entra ID |
-| 11 | OAuth 2.0 & JWT Token Lab | ⏳ Upcoming | Azure + Postman |
-| 12 | SCIM Automated Provisioning | ⏳ Upcoming | Entra ID + App |
-| 13 | Zero Trust — 3 Pillar Implementation | ⏳ Upcoming | On-Prem + Azure |
-| 14 | SoD Conflict Detection | ⏳ Upcoming | On-Prem + Azure |
-| 15 | Identity Protection Risk Triage | ⏳ Upcoming | Azure Entra ID |
-| 16 | PowerShell Automation Scripts | ⏳ Upcoming | PowerShell + Graph API |
-| 17 | End-to-End Hybrid Lifecycle | ⏳ Upcoming | All Tools |
-| 18 | Account Compromise IR | ⏳ Upcoming | On-Prem + Azure |
-| 19 | IAM Portfolio Document | ⏳ Upcoming | All Tools |
-| 20 | Mock Interview — Live Demo | ⏳ Upcoming | All Tools |
-
----
-
-## Certifications
-- CompTIA A+ ✅
-- CompTIA Security+ ✅
-- Cisco CCNA ✅
-- SC-300 Microsoft Identity & Access Administrator 🔄 In Progress
-- AZ-500 Azure Security Engineer ⏳ Planned
-
----
-
-## Portfolio Document
-Full lab portfolio PDF available in the `/Portfolio` folder.
-
----
-
-*This repository is updated as each lab is completed.*
+## Original Repository & Credits
+This hands-on lab series was adapted and built upon the foundational framework provided by [Opeyemi Ogundimu — IAM Home Lab Portfolio](https://github.com/okpe027/iam-homelab-portfolio). 
