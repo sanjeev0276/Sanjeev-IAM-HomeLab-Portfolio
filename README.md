@@ -1,13 +1,10 @@
 # IAM-HomeLab-Portfolio - Hands-On Architecture and Implementation
 ![Active Directory](https://img.shields.io/badge/Active%20Directory-On--Prem%20Identity-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
-![Windows Server 2022](https://img.shields.io/badge/Windows%20Server%202022-VMware-0078D4?style=for-the-badge&logo=windows&logoColor=white)
 ![Microsoft Entra ID](https://img.shields.io/badge/Microsoft%20Entra%20ID-Hybrid%20Identity-0078D4?style=for-the-badge&logo=microsoftentraid&logoColor=white)
-![Azure AD Connect](https://img.shields.io/badge/Azure%20AD%20Connect-Hybrid%20Sync-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
 ![RBAC](https://img.shields.io/badge/RBAC-Role%20Engineering%20%26%20Access%20Governance-2E86C1?style=for-the-badge)
 ![Offboarding](https://img.shields.io/badge/Offboarding-Access%20Revocation-6C3483?style=for-the-badge)
 ![Conditional Access](https://img.shields.io/badge/Conditional%20Access-Identity%20Security-00A86B?style=for-the-badge)
 ![PowerShell](https://img.shields.io/badge/PowerShell-Automation%20%26%20Investigation-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
-![Status](https://img.shields.io/badge/Status-6%20Labs%20Completed-success?style=for-the-badge)
 
 **Author:** Sanjeev Shrestha | Dallas–Fort Worth Area, TX (Shrestha Technologies)  
 **Target Roles:** IAM Engineer / Identity Engineer / Entra ID Engineer / Okta Administrator (2027)  
