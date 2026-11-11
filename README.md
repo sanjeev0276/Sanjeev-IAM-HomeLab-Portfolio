@@ -54,11 +54,12 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 ## Detailed Lab Implementations and Visual Proof
 
 <a id="lab-1-okta-tenant-setup--configuration"></a>
-### Lab 1: Okta Tenant Setup and Configuration
+### Lab 1: AD Foundation
 
 **Key Learnings and Takeaways:**
-* Established core tenant infrastructure including branding, directory schema, custom profile attributes, and group structures prior to app assignments.
-* Isolated Global Session Policies from application-level Authentication Policies and Authenticator Enrollment Policies to maintain granular access control.
+* Plan for leavers, not just joiners Disabled accounts need their own OU. It keeps terminated users isolated, easy to audit, and out of sync.
+* Give access to groups, not people When access lives in groups, moves and exits become a membership change, not a cleanup project.
+* Don't sync everything to the cloud If an account shouldn't have access, it shouldn't sync to Entra ID either.
 
 <details>
 <summary>📸 <b>click here to view Lab 1 Diagrams and Screenshots</b></summary>
@@ -66,25 +67,21 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 <br>
 
 #### Architecture Diagram
-![Architecture Diagram](Lab%201%20-%20Okta%20Tenant%20Setup%20and%20Configuration/Screenshots/Architecture_Diagram.png)
+![Architecture Diagram](Lab01-AD-Foundation/Screenshots/Architecture_Diagram.png)
 
-#### Administration and Configuration Captures
-* **Organization Contact:**  
-  ![Organization Contact](Lab%201%20-%20Okta%20Tenant%20Setup%20and%20Configuration/Screenshots/Image1.png)
-* **People Directory:**  
-  ![People](Lab%201%20-%20Okta%20Tenant%20Setup%20and%20Configuration/Screenshots/People.png)
-* **Custom Profile Attributes:**  
-  ![Custom Profile Attributes](Lab%201%20-%20Okta%20Tenant%20Setup%20and%20Configuration/Screenshots/Custom_Profile_Attributes.png)
-* **Group Management:**  
-  ![Groups](Lab%201%20-%20Okta%20Tenant%20Setup%20and%20Configuration/Screenshots/Groups.png)
-* **Automated Group Rules:**  
-  ![Group Rules](Lab%201%20-%20Okta%20Tenant%20Setup%20and%20Configuration/Screenshots/Group_Rules.png)
-* **Global Session Policy:**  
-  ![Global Session Policy](Lab%201%20-%20Okta%20Tenant%20Setup%20and%20Configuration/Screenshots/Global_Session_Policy.png)
-* **Authentication Policies:**  
-  ![Authentication Policies](Lab%201%20-%20Okta%20Tenant%20Setup%20and%20Configuration/Screenshots/Authentication_Policies.png)
-* **Authenticator Enrollment Policy:**  
-  ![Authenticator Enrollment Policy](Lab%201%20-%20Okta%20Tenant%20Setup%20and%20Configuration/Screenshots/Authenticator_Enrollment_Policy.png)
+#### AD Foundation
+* **Environment:**  
+  ![Environment](Lab01-AD-Foundation/Screenshots/Static-IP-192.168.10.10.png)
+* **ADUC OU Tree:**  
+  ![People](Lab01-AD-Foundation/Screenshots/ADUC-OU-Tree.png)
+* **Groups-Finance-SoD:**  
+  ![Groups-Finance-SoD](Lab01-AD-Foundation/Screenshots/Groups-Finance-SoD.png)
+* **Marcus-Williams:**  
+  ![Marcus-Williams](Lab01-AD-Foundation/Screenshots/Marcus-Williams.png)
+* **Jessica-Park:**  
+  ![Jessica-Park](Lab01-AD-Foundation/Screenshots/Jessica-Park.png)
+* **Jessica-Park-Expiry:**  
+  ![Jessica-Park-Expiry](Lab01-AD-Foundation/Screenshots/Jessica-Park-Expiry.png)
 
 </details>
 
