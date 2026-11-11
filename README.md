@@ -88,11 +88,12 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 **[↑ Back to Lab Execution Status](#lab-execution-status)**
 
 <a id="lab-2-active-directory-integration--delegated-authentication"></a>
-### Lab 2: Active Directory Integration and Delegated Authentication
+### Lab 2: RBAC
 
 **Key Learnings and Takeaways:**
-* Configured Active Directory as the authoritative source of truth for user lifecycle operations (`allenlab.local`).
-* Evaluated standard import workflows: **Incremental Import** for daily delta synchronization vs. **Full Import** for initial reconciliation and bulk schema updates.
+* Design before you build - If it's not in the matrix, don't build it. If you built it but it's not in the matrix, that's an audit finding.
+* The matrix is the contract - Map each role to systems like — AD, Email, FinanceCore, PeopleHub, SalesPro, — plus Invoice Create / Approve / Admin. Every cell gets Allow, Deny, or Read-Only.
+* SoD stops fraud, not just paperwork - Define the conflicts before we build.
 
 <details>
 <summary>📸 <b>click here to view Lab 2 Diagrams and Screenshots</b></summary>
