@@ -101,18 +101,22 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 <br>
 
 #### Architecture Diagram
-![Architecture Diagram](Lab%202%20-%20Okta%20Active%20Directory%20Integration/Screenshots/Architecture_Diagram.png)
+![Architecture Diagram](Lab02-RBAC/Screenshots/Architecture_diagram.png)
 
-#### Active Directory Integration Proof
-* **AD to Okta Provisioning Pipeline:**  
-  ![From AD To Okta](Lab%202%20-%20Okta%20Active%20Directory%20Integration/Screenshots/FromAD_To_Okta.png)
-* **Delegated Authentication Enabled:**  
-  ![Enabled Delegated Authentication](Lab%202%20-%20Okta%20Active%20Directory%20Integration/Screenshots/Enabled_Delegated_Authentication.png)
-* **AD Profile Mapping:**  
-  ![User Profile Mapping AD](Lab%202%20-%20Okta%20Active%20Directory%20Integration/Screenshots/User_Profile_Mapping_AD.png)
-* **Okta User Profile Mapping:**  
-  ![User Profile Mapping Okta](Lab%202%20-%20Okta%20Active%20Directory%20Integration/Screenshots/User_Profile_Mapping_Okta.png)
-
+#### RBAC Proof
+* **SoD Policy:**  
+  ![SoD Policy](Lab02-RBAC/Screenshots/SoD-Policy.png)
+* **Privilege Creep - Before remediation :**  
+  ![Privilege Creep ](Lab02-RBAC/Screenshots/Before-remediation.png)
+* **After remediation:**  
+  ![After-remediation](Lab02-RBAC/Screenshots/After-remediation.png)
+* **Role Change:**  
+  ![Role-Change](Lab02-RBAC/Screenshots/Role-Change.png)
+* **Access Certification:**  
+  ![Access-Certification](Lab02-RBAC/Screenshots/Access-Certification.png)
+* **Threat Connections:**  
+  ![Threat-Connections](Lab02-RBAC/Screenshots/Threat-Connections.png)
+  
 </details>
 
 ---
