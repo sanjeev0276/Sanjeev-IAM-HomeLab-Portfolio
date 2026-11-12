@@ -7,7 +7,7 @@
 ![PowerShell](https://img.shields.io/badge/PowerShell-Automation%20%26%20Investigation-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
 
 **Author:** Sanjeev Shrestha | Dallas–Fort Worth Area, TX (Shrestha Technologies)  
-**Target Roles:** IAM Engineer / Identity Engineer / Entra ID Engineer / Okta Administrator (2027)  
+**Target Roles:** IAM Engineer / Identity Engineer / Entra ID Engineer / Okta Engineer (2027)  
 **Certification Focus:** Preparing for Microsoft SC-300: Identity and Access Administrator Associate <br>
 **Environment:** Microsoft Active Directory/Entra ID
 
