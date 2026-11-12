@@ -136,20 +136,15 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 <br>
 
 #### Architecture Diagram
-![Architecture Diagram](Lab%203%20-%20Okta%20RBAC%20Design%20and%20Implementation/Screenshots/Architecture_Diagram.png)
+![Architecture Diagram](Lab03-Offboarding/Screenshots/Architecture_Diagram.png)
 
 #### Offboarding Proof
-* **Group Sync Verification:**  
-  ![Okta Group Sync](Lab%203%20-%20Okta%20RBAC%20Design%20and%20Implementation/Screenshots/Okta_Group_Sync.png)
-* **Full Reconciliation Import:**  
-  ![Full Import](Lab%203%20-%20Okta%20RBAC%20Design%20and%20Implementation/Screenshots/Full_Import.png)
-* **Lifecycle Deactivation (AD side):**  
-  ![Sarah Disabled AD](Lab%203%20-%20Okta%20RBAC%20Design%20and%20Implementation/Screenshots/Sarah_Disabled_AD.png)
-* **Lifecycle Deactivation (Okta side):**  
-  ![Sarah Deactivated Okta](Lab%203%20-%20Okta%20RBAC%20Design%20and%20Implementation/Screenshots/Sarah_Deactivated_Okta.png)
-* **Access Sprawl Investigation and Audit Report:**  
-  ![Access Sprawl Investigation](Lab%203%20-%20Okta%20RBAC%20Design%20and%20Implementation/Screenshots/Access_Sprawl_Investigation.png)  
-  ![Access Sprawl Report](Lab%203%20-%20Okta%20RBAC%20Design%20and%20Implementation/Screenshots/Access_Sprawl_Report.png)
+* **Before Leaver Active:**  
+  ![Before-Leaver-Active](Lab03-Offboarding/Screenshots/Before-Leaver-Active.png)
+* **After Disabled And Moved:**  
+  ![After-Disabled-And-Moved](Lab03-Offboarding/Screenshots/After-Disabled-And-Moved.png)
+* **After-No-Groups:**  
+  ![After-No-Groups](Lab03-Offboarding/Screenshots/After-No-Groups.png)
 
 </details>
 
