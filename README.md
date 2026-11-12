@@ -123,11 +123,12 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 **[↑ Back to Lab Execution Status](#lab-execution-status)**
 
 <a id="lab-3-rbac-design--access-sprawl-investigation"></a>
-### Lab 3: RBAC Design and Access Sprawl Investigation
+### Lab 3: Offboarding
 
 **Key Learnings and Takeaways:**
-* Enforced end-to-end lifecycle flow: `HR → AD → Okta`. Tested AD account disablement and verified the resulting Okta lifecycle state. Session revocation and downstream application access require separate validation.
-* Audited governance bypasses in Okta System Logs (`application.user_membership.add`) to detect direct user-to-app assignments and restore strict RBAC posture.
+* Offboarding is a security process, not just an HR task. Disabled accounts and access removal help prevent unauthorized access after an employee leaves.
+* Documenting every action is important. Maintaining a provisioning/deprovisioning log creates an audit trail and supports compliance reviews.
+* Verify access is actually removed. Don't assume access is gone. Check group memberships, accounts, and permissions to confirm deprovisioning was successful.
 
 <details>
 <summary>📸 <b>click here to view Lab 3 Diagrams and Screenshots</b></summary>
@@ -137,7 +138,7 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 #### Architecture Diagram
 ![Architecture Diagram](Lab%203%20-%20Okta%20RBAC%20Design%20and%20Implementation/Screenshots/Architecture_Diagram.png)
 
-#### RBAC & Deprovisioning Proof
+#### Offboarding Proof
 * **Group Sync Verification:**  
   ![Okta Group Sync](Lab%203%20-%20Okta%20RBAC%20Design%20and%20Implementation/Screenshots/Okta_Group_Sync.png)
 * **Full Reconciliation Import:**  
