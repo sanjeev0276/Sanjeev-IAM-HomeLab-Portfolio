@@ -260,24 +260,12 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
   ![Finance_Group_Confirmation](Lab%206%20-%20Okta%20JML%20Lifecycle%20Automation/Screenshots/Finance_Group_Confirmation.png)
 </details>
 
----
-#### 📂 Code & Automation Artifacts (Direct Inspect)
-- **Joiner:** [`scripts/Joiner.ps1`](scripts/Joiner.ps1) — Create a user and assign configured groups.
-- **Mover:** [`scripts/Mover.ps1`](scripts/Mover.ps1) — Update user attributes and change group memberships.
-- **Leaver:** [`scripts/Leaver.ps1`](scripts/Leaver.ps1) — Disable the account and remove configured group memberships.
-- **CSV input:** [`csv-file/Jml-Batch.csv`](csv-file/Jml-Batch.csv) — Batch lifecycle records.
-- **Batch runner:** [`scripts/JML-Batch.ps1`](scripts/JML-Batch.ps1) — Process CSV records with validation.
-
-#### Validation and Limitations
-
-AD and Okta state changes do not, by themselves, prove downstream application deprovisioning or active-session revocation. Those outcomes require separate validation.
-
 **[↑ Back to Lab Execution Status](#lab-execution-status)**
 
 ---
 
 ## Original Repository and Credits
-This hands-on lab series was adapted and built upon the foundational framework provided by [RyanKennon/Okta-Lab-Series](https://github.com/RyanKennon/Okta-Lab-Series). Full original references can be found in [REFERENCE.md](REFERENCE.md).
+This hands-on lab series was adapted and built upon the foundational framework provided by [okpe027/IAM-HomeLab-Portfolio](https://github.com/okpe027/IAM-HomeLab-Portfolio/tree/main). 
 
 
 
