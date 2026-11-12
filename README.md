@@ -107,7 +107,7 @@ Implemented an end-to-end IAM environment using Okta, Active Directory, SAML fed
 * **SoD Policy:**  
   ![SoD Policy](Lab02-RBAC/Screenshots/SoD-Policy.png)
 * **Privilege Creep - Before remediation :**  
-  ![Privilege Creep ](Lab02-RBAC/Screenshots/Before-remediation.png)
+  ![Before-remediation ](Lab02-RBAC/Screenshots/Before-remediation.png)
 * **After remediation:**  
   ![After-remediation](Lab02-RBAC/Screenshots/After-remediation.png)
 * **Role Change:**  
